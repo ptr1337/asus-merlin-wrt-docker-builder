@@ -26,6 +26,7 @@ https://docs.docker.com/get-docker/
 - Right now ive only created a bash file which pull's the Git Repos and create the correct toolchain for the ac86u, right now i didnt tested other devices. 
 - Clone the repo with: 'git clone https://github.com/ptr1337/asus-merlin-wrt-builder-docker'
 - Then run the following command: 'docker-compose up -d' ; it will pull the prebuilt image with the script
+- Then run 'docker exec -it asus-merlin-wrt-builder bash'
 - Run the script and compile your own firmware
 - If using the docker-compose.yml , you can move your built firmwares into /images which can be found in the started Directory
 
