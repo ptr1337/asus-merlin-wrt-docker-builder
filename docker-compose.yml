@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+
+  asus-merlin-wrt-builder:
+#    build: .
+    image: pttrr//asus-merlin-wrt-builder:latest
+    privileged: true
+    container_name: asus-merlin-wrt-builder
+    tty: true
+    volumes:
+      - ./:/images

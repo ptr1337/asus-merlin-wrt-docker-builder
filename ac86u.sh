@@ -30,5 +30,7 @@ cd ~/asuswrt-merlin.ng/release/src/router/libxml2
 sed -i s/AM_C_PROTOTYPES/#AM_C_PROTOTYPES/g ~/asuswrt-merlin.ng/release/src/router/libxml2/configure.in
 aclocal
 
-cd ~/asuswrt-merlin.ng/release/src-rt-5.02hnd
-make rt-ac86u
+
+#example for ac86u
+#cd ~/asuswrt-merlin.ng/release/src-rt-5.02hnd
+#make rt-ac86u
