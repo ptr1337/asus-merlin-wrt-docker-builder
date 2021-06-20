@@ -27,4 +27,5 @@ USER build
 
 WORKDIR /home/build
 
-wget 
+RUN wget https://raw.githubusercontent.com/ptr1337/asus-merlin-wrt-docker-builder/master/ac86u.sh
+RUN chmod +x ac86u.sh
